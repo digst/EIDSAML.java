@@ -24,5 +24,5 @@ The source code contains everything you need to get a demonstration environment 
 For a quick setup, follow the on setting up a test service provider via Docker - [Docker ReadMe](docker/README.md).
 
 On the service provider you should now be able to log in using the the [Test Danish Eidas Gateway](https://eidasconnector.test.eid.digst.dk/).
-* You must have select the Test Country EU in the [Test Danish Eidas Gateway](https://eidasconnector.test.eid.digst.dk/).
+* You must select the Test Country EU in the [Test Danish Eidas Gateway](https://eidasconnector.test.eid.digst.dk/).
 
