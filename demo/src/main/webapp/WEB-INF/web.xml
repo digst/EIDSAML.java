@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+    xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <display-name>EIDSAML-Demo</display-name>
+
+    <listener>
+        <listener-class>eid.saml.session.SessionDestroyListener</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>DispatcherServlet</servlet-name>
+        <servlet-class>
+            eid.saml.servlet.DispatcherServlet
+        </servlet-class>
+
+        <init-param>
+            <param-name>eidsaml.servlet.configurationfile</param-name>
+            <param-value>eidsaml.properties</param-value>
+        </init-param>
+
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DispatcherServlet</servlet-name>
+        <url-pattern>/eidsaml/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SessionTestServlet</servlet-name>
+        <servlet-class>
+            eid.saml.servlet.SessionTestServlet
+        </servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SessionTestServlet</servlet-name>
+        <url-pattern>/sessiontest/*</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>SameSiteFilter</filter-name>
+        <filter-class>eid.saml.filter.SameSiteFilter</filter-class>
+    </filter>
+
+    <filter>
+        <filter-name>EidAuthFilter</filter-name>
+        <filter-class>eid.saml.filter.AuthenticatedFilter</filter-class>        
+    </filter>
+
+    <!-- should be placed BEFORE the AuthenticationFilter to ensure it catches any sessions created -->
+    <filter-mapping>
+        <filter-name>SameSiteFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>EidAuthFilter</filter-name>
+        <url-pattern>/pages/*</url-pattern>
+    </filter-mapping>    
+</web-app>

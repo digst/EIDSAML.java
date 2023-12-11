@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://eidasconnector.test.eid.digst.dk/idp" validUntil="2026-02-05T00:00:00.000Z">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGejCCBK6gAwIBAgIUXS7HjtTm7QZ1EdqHzuQjEB1uOiQwQQYJKoZIhvcNAQEK
+MDSgDzANBglghkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEF
+AKIDAgEgMFYxLTArBgNVBAMMJERlbiBEYW5za2UgU3RhdCBPQ0VTIHVkc3RlZGVu
+ZGUtQ0EgMTEYMBYGA1UECgwPRGVuIERhbnNrZSBTdGF0MQswCQYDVQQGEwJESzAe
+Fw0yMzA1MDcxODAyNDFaFw0yNjA1MDYxODAyNDBaMIGxMS0wKwYDVQQDDCRlSUQt
+R2F0ZXdheSAtIERLIENvbm5lY3RvciAtIEludFRlc3QxNzA1BgNVBAUTLlVJOkRL
+LU86Rzo2MjZiNGVjZS1hNTQ0LTQ1ZDAtYmRmMS1mMzU1YzhmYzMzOTIxITAfBgNV
+BAoMGERpZ2l0YWxpc2VyaW5nc3N0eXJlbHNlbjEXMBUGA1UEYQwOTlRSREstMzQw
+NTExNzgxCzAJBgNVBAYTAkRLMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKC
+AYEA2eKzfnVQsxjd0UmcbNxA5DrBj1onQdLuiKTJMZUuXbsZqHQy7jy5LFD3Ehvs
+3xaKEJNvZAUpUpLnkEJIxn/OCm8oGFeD547c+/AMiq9eYyggcC5wsv8N2Vf3aOLN
+v2IlCa8yoUNQ8FEJke1tvcBtLEelYXW+rLbBE+gpPmd6JN1MsYzBPRMBYJst8Y9v
+150jG7xSc0bAoEJUWKz1JCHDW0FR60to5TaTSMHKCs+25UMvaEDJi48hB7ATg75Y
+mJdFhit/elVc3w8sZmA8noyy65rSJbfk9FwAFFxZQoB7xbq9qhO816PN4mzbcc0f
+ywGilX9CZUxyx8zV8ILVfCEztpzAg4kOrGy6c34clT5sudcU1yc1GM1RYzndxe22
+2EMUXiY+mL+BD/2m5xIPVVMRqgvWYyVEzB4+7eeFQdTaZ/1ExEe6xaiJw/MyX3o7
+95fWbtt/OQQQf5dgRYJ3jNNEnsxTINpkhup3PREtCsAO0KITPnLROAFOoleuSCRT
+uutTAgMBAAGjggF6MIIBdjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFEwB4spz
+vMO+OAo4PTawXHSce5e5MHMGCCsGAQUFBwEBBGcwZTA/BggrBgEFBQcwAoYzaHR0
+cDovL2NhMS5nb3YuZGsvb2Nlcy9pc3N1aW5nLzEvY2FjZXJ0L2lzc3VpbmcuY2Vy
+MCIGCCsGAQUFBzABhhZodHRwOi8vY2ExLmdvdi5kay9vY3NwMCEGA1UdIAQaMBgw
+CAYGBACPegEBMAwGCiqBUIEpAQEBAwcwOwYIKwYBBQUHAQMELzAtMCsGCCsGAQUF
+BwsCMB8GBwQAi+xJAQIwFIYSaHR0cHM6Ly91aWQuZ292LmRrMEEGA1UdHwQ6MDgw
+NqA0oDKGMGh0dHA6Ly9jYTEuZ292LmRrL29jZXMvaXNzdWluZy8xL2NybC9pc3N1
+aW5nLmNybDAdBgNVHQ4EFgQU7FbJQuF8SaqAwz6nqSSI7ou1lFYwDgYDVR0PAQH/
+BAQDAgWgMEEGCSqGSIb3DQEBCjA0oA8wDQYJYIZIAWUDBAIBBQChHDAaBgkqhkiG
+9w0BAQgwDQYJYIZIAWUDBAIBBQCiAwIBIAOCAYEAArGQ6qoM8imRmB7Lk4/9gJS9
+9lT7zJWooUUpTKp6ZuhURABghRIEbuwogzYIXramvoQTMysv8H5iwGDLaXHFqF5v
+QxW1iHra5oDUS+S1Ao+fvoa8w5PPdWwGOgwrKShqKZcEUyHfWanoyAKtGJ5RJZPi
+ytQwtn5AP56N6lcsS1UxETzsZ+KuCaYWmj1kptyxLGUcigPU+RD+IA4DsmDQypcK
+Rk0aRHjk0uyI6FWo3aLcvWgBqWkciaW5XJXOQPXPNIxqlg8Rn7ksDTt+lcKU0h8E
+L5FMsQepfPCjOwocjqh9hnL9v1BAnpB+heMV+mduEKzHjSTPs5KAaKNfMKiS9m4R
+zSrrwjjq8ie8g3N+F7mkgOn1cwLHnAxT1yLtfK3hLlh2Z8jR0YTKSsNIsz9GGbC0
+OqjFTnPk+YwkoBboksIR4DA+r73jhjnuR3nM2fSWnW2zLcANNXtx0R4lEWUfQPdl
+jjO52tBw7oH6QG8qCsFRCBm6BNlLOUckjc4FB1eJ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGejCCBK6gAwIBAgIUXS7HjtTm7QZ1EdqHzuQjEB1uOiQwQQYJKoZIhvcNAQEK
+MDSgDzANBglghkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEF
+AKIDAgEgMFYxLTArBgNVBAMMJERlbiBEYW5za2UgU3RhdCBPQ0VTIHVkc3RlZGVu
+ZGUtQ0EgMTEYMBYGA1UECgwPRGVuIERhbnNrZSBTdGF0MQswCQYDVQQGEwJESzAe
+Fw0yMzA1MDcxODAyNDFaFw0yNjA1MDYxODAyNDBaMIGxMS0wKwYDVQQDDCRlSUQt
+R2F0ZXdheSAtIERLIENvbm5lY3RvciAtIEludFRlc3QxNzA1BgNVBAUTLlVJOkRL
+LU86Rzo2MjZiNGVjZS1hNTQ0LTQ1ZDAtYmRmMS1mMzU1YzhmYzMzOTIxITAfBgNV
+BAoMGERpZ2l0YWxpc2VyaW5nc3N0eXJlbHNlbjEXMBUGA1UEYQwOTlRSREstMzQw
+NTExNzgxCzAJBgNVBAYTAkRLMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKC
+AYEA2eKzfnVQsxjd0UmcbNxA5DrBj1onQdLuiKTJMZUuXbsZqHQy7jy5LFD3Ehvs
+3xaKEJNvZAUpUpLnkEJIxn/OCm8oGFeD547c+/AMiq9eYyggcC5wsv8N2Vf3aOLN
+v2IlCa8yoUNQ8FEJke1tvcBtLEelYXW+rLbBE+gpPmd6JN1MsYzBPRMBYJst8Y9v
+150jG7xSc0bAoEJUWKz1JCHDW0FR60to5TaTSMHKCs+25UMvaEDJi48hB7ATg75Y
+mJdFhit/elVc3w8sZmA8noyy65rSJbfk9FwAFFxZQoB7xbq9qhO816PN4mzbcc0f
+ywGilX9CZUxyx8zV8ILVfCEztpzAg4kOrGy6c34clT5sudcU1yc1GM1RYzndxe22
+2EMUXiY+mL+BD/2m5xIPVVMRqgvWYyVEzB4+7eeFQdTaZ/1ExEe6xaiJw/MyX3o7
+95fWbtt/OQQQf5dgRYJ3jNNEnsxTINpkhup3PREtCsAO0KITPnLROAFOoleuSCRT
+uutTAgMBAAGjggF6MIIBdjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFEwB4spz
+vMO+OAo4PTawXHSce5e5MHMGCCsGAQUFBwEBBGcwZTA/BggrBgEFBQcwAoYzaHR0
+cDovL2NhMS5nb3YuZGsvb2Nlcy9pc3N1aW5nLzEvY2FjZXJ0L2lzc3VpbmcuY2Vy
+MCIGCCsGAQUFBzABhhZodHRwOi8vY2ExLmdvdi5kay9vY3NwMCEGA1UdIAQaMBgw
+CAYGBACPegEBMAwGCiqBUIEpAQEBAwcwOwYIKwYBBQUHAQMELzAtMCsGCCsGAQUF
+BwsCMB8GBwQAi+xJAQIwFIYSaHR0cHM6Ly91aWQuZ292LmRrMEEGA1UdHwQ6MDgw
+NqA0oDKGMGh0dHA6Ly9jYTEuZ292LmRrL29jZXMvaXNzdWluZy8xL2NybC9pc3N1
+aW5nLmNybDAdBgNVHQ4EFgQU7FbJQuF8SaqAwz6nqSSI7ou1lFYwDgYDVR0PAQH/
+BAQDAgWgMEEGCSqGSIb3DQEBCjA0oA8wDQYJYIZIAWUDBAIBBQChHDAaBgkqhkiG
+9w0BAQgwDQYJYIZIAWUDBAIBBQCiAwIBIAOCAYEAArGQ6qoM8imRmB7Lk4/9gJS9
+9lT7zJWooUUpTKp6ZuhURABghRIEbuwogzYIXramvoQTMysv8H5iwGDLaXHFqF5v
+QxW1iHra5oDUS+S1Ao+fvoa8w5PPdWwGOgwrKShqKZcEUyHfWanoyAKtGJ5RJZPi
+ytQwtn5AP56N6lcsS1UxETzsZ+KuCaYWmj1kptyxLGUcigPU+RD+IA4DsmDQypcK
+Rk0aRHjk0uyI6FWo3aLcvWgBqWkciaW5XJXOQPXPNIxqlg8Rn7ksDTt+lcKU0h8E
+L5FMsQepfPCjOwocjqh9hnL9v1BAnpB+heMV+mduEKzHjSTPs5KAaKNfMKiS9m4R
+zSrrwjjq8ie8g3N+F7mkgOn1cwLHnAxT1yLtfK3hLlh2Z8jR0YTKSsNIsz9GGbC0
+OqjFTnPk+YwkoBboksIR4DA+r73jhjnuR3nM2fSWnW2zLcANNXtx0R4lEWUfQPdl
+jjO52tBw7oH6QG8qCsFRCBm6BNlLOUckjc4FB1eJ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://eidasconnector.test.eid.digst.dk/Request" />
+    <!-- NATURAL PERSON -->
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="PersonIdentifier" Name="dk:gov:saml:attribute:eidas:naturalperson:PersonIdentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="FamilyName" Name="dk:gov:saml:attribute:eidas:naturalperson:CurrentFamilyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="FirstName" Name="dk:gov:saml:attribute:eidas:naturalperson:CurrentGivenName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="DateOfBirth" Name="dk:gov:saml:attribute:eidas:naturalperson:DateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="BirthName" Name="dk:gov:saml:attribute:eidas:naturalperson:BirthName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="PlaceOfBirth" Name="dk:gov:saml:attribute:eidas:naturalperson:PlaceOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="CurrentAddress" Name="dk:gov:saml:attribute:eidas:naturalperson:CurrentAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Gender" Name="dk:gov:saml:attribute:eidas:naturalperson:Gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <!-- NATURAL PERSON REPRESENTATIVE - THESE ATTRIBUTES MAY BE RETURNED BY CONNECTOR, BUT CANNOT BE REQUESTED IN AUTHNREQUEST -->
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativePersonIdentifier" Name="dk:gov:saml:attribute:eidas:naturalperson:representative:PersonIdentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeFamilyName" Name="dk:gov:saml:attribute:eidas:naturalperson:representative:CurrentFamilyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeFirstName" Name="dk:gov:saml:attribute:eidas:naturalperson:representative:CurrentGivenName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeDateOfBirth" Name="dk:gov:saml:attribute:eidas:naturalperson:representative:DateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeBirthName" Name="dk:gov:saml:attribute:eidas:naturalperson:representative:BirthName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativePlaceOfBirth" Name="dk:gov:saml:attribute:eidas:naturalperson:representative:PlaceOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeCurrentAddress" Name="dk:gov:saml:attribute:eidas:naturalperson:representative:CurrentAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeGender" Name="dk:gov:saml:attribute:eidas:naturalperson:representative:Gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <!-- LEGAL PERSON -->
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="LegalPersonIdentifier" Name="dk:gov:saml:attribute:eidas:legalperson:LegalPersonIdentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="LegalName" Name="dk:gov:saml:attribute:eidas:legalperson:LegalName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="LegalAddress" Name="dk:gov:saml:attribute:eidas:legalperson:LegalPersonAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="VATRegistration" Name="dk:gov:saml:attribute:eidas:legalperson:VATRegistrationNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="TaxReference" Name="dk:gov:saml:attribute:eidas:legalperson:TaxReference" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="D-2012-17-EUIdentifier" Name="dk:gov:saml:attribute:eidas:legalperson:D-2012-17-EUIdentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="LEI" Name="dk:gov:saml:attribute:eidas:legalperson:LEI" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="EORI" Name="dk:gov:saml:attribute:eidas:legalperson:EORI" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="SEED" Name="dk:gov:saml:attribute:eidas:legalperson:SEED" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="SIC" Name="dk:gov:saml:attribute:eidas:legalperson:SIC" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <!-- LEGAL PERSON REPRESENTATIVE - THESE ATTRIBUTES MAY BE RETURNED BY CONNECTOR, BUT CANNOT BE REQUESTED IN AUTHNREQUEST -->
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeLegalPersonIdentifier" Name="dk:gov:saml:attribute:eidas:legalperson:representative:LegalPersonIdentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeLegalName" Name="dk:gov:saml:attribute:eidas:legalperson:representative:LegalName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeLegalAddress" Name="dk:gov:saml:attribute:eidas:legalperson:representative:LegalPersonAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Representative" Name="dk:gov:saml:attribute:eidas:legalperson:representative:VATRegistrationNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeTaxReference" Name="dk:gov:saml:attribute:eidas:legalperson:representative:TaxReference" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeD-2012-17-EUIdentifier" Name="dk:gov:saml:attribute:eidas:legalperson:representative:D-2012-17-EUIdentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeLEI" Name="dk:gov:saml:attribute:eidas:legalperson:representative:LEI" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="Representative" Name="dk:gov:saml:attribute:eidas:legalperson:representative:EORI" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeSEED" Name="dk:gov:saml:attribute:eidas:legalperson:representative:SEED" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    <saml2:Attribute xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" FriendlyName="RepresentativeSIC" Name="dk:gov:saml:attribute:eidas:legalperson:representative:SIC" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+  </md:IDPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Digitaliseringsstyrelsen</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Digitaliseringsstyrelsen</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.digst.dk</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="support">
+    <md:Company>Digitaliseringsstyrelsen</md:Company>
+    <md:GivenName>Digitaliseringsstyrelsen</md:GivenName>
+    <md:SurName>Digitaliseringsstyrelsen</md:SurName>
+    <md:EmailAddress>eidas@digst.dk</md:EmailAddress>
+    <md:TelephoneNumber>+45 33925200</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>

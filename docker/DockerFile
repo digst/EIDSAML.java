@@ -1,0 +1,33 @@
+FROM maven:3.3-jdk-8 as build
+
+## COPY Source files
+COPY pom.xml /usr/src/eid/pom.xml
+COPY /demo /usr/src/eid/demo
+COPY /eidsaml /usr/src/eid/eidsaml
+
+## COPY Settings
+WORKDIR /usr/src/eid/demo/src/main/resources
+COPY /docker/demo-files/eid-idp-metadata.xml .
+COPY /docker/demo-files/eidsaml.properties .
+COPY /docker/demo-files/startup.sh /usr/custom/startup.sh
+
+## Demo SP Settings
+ENV DEMO_ENTITY_ID=https://saml.eidsaml-demo-app-3
+ENV DEMO_BASE_URL=http://localhost:8083/eidsaml-demo.java
+ENV EID_IDP_URL=https://eidasconnector-dev.test.eid.digst.dk/idp
+
+WORKDIR /usr/src/eid
+RUN /usr/custom/startup.sh
+
+FROM tomcat:9.0
+
+WORKDIR /usr/local/tomcat/webapps/
+## demo SP package location
+COPY --chown=other:other --from=build /usr/src/eid/demo/target/eidsaml-demo.java.war .
+
+WORKDIR /usr/local/tomcat/bin
+COPY /docker/tomcat-files/custom-hosts.sh .
+COPY /docker/tomcat-files/startup.sh .
+
+ENV JAVA_OPTS=' -Djava.net.preferIPv4Stack=true -Xms512m -Xmx512m'
+CMD ["./startup.sh"]

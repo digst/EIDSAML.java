@@ -1,0 +1,16 @@
+.classpath
+.project
+.settings
+target/
+.idea/
+*.iml
+velocity.log
+.DS_Store
+.run/
+velocity.log.*
+*.lck
+*.lobs
+*.log
+#*.properties
+*.script
+mem.*
